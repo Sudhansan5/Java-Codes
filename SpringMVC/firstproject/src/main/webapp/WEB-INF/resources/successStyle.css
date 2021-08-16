@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+body{
+	background-color: rgb(223, 202, 250);
+}
+table {
+	border-collapse: collapse;
+  }
+#emp th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgb(203, 174, 240);
+  }
+#emp td, #emp th {
+	border: 1px solid rgb(221, 210, 210);
+	padding: 8px;
+  }
+
+#emp tr:nth-child(even){background-color: #d09fda;}
+
+#emp tr:nth-child(odd){background-color: #da9cc2;}
+#emp tr:hover {background-color: #ddd;}
+
+.container{
+	padding: 2%;
+}
